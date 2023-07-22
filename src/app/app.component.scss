@@ -84,6 +84,10 @@
       justify-content: space-between;
     }
 
+    td {
+      margin-left: 1rem;
+    }
+
     &__even {
       background-color: rgb(44, 44, 44);
       color: rgb(255, 255, 255);
@@ -92,5 +96,9 @@
     &__odd {
       background-color: rgb(11, 11, 11);
       color: rgb(255, 255, 255);
+    }
+
+    &__is-done {
+      text-decoration: line-through;
     }
 }
